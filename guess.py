@@ -7,11 +7,13 @@ while True:
 	num = int(num)
 	if num == r:
 		print('你猜對了!')
-		break
-	
+		break	
+
 	elif num > r:
-		print('比答案大','已經猜了', count, '次了')
+		print('比答案大')
 	
 	elif num < r:
-		print('比答案小','已經猜了', count	, '次了')
+		print('比答案小')
+
+	print('這是你猜的第', count, '次')
 	
